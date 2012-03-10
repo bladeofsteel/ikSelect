@@ -348,7 +348,7 @@
 		// shows dropdown
 		show_block: function(){
 			var isMobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-			if(isMmobile){
+			if(isMobile){
 				this.select.focus();
 				return true;
 			}
